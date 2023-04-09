@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'package:videoplayerapp/musicplayer.dart';
 
 void main(List<String> args) {
   runApp(
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: const MyVideoPlayer(),
+      home:  MyMusicPlayerPage(),
     );
   }
 }
